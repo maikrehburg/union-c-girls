@@ -1,0 +1,107 @@
+/* ============================================
+   Spielplan Page Styles - Union Varl
+   ============================================ */
+
+body {
+    background: linear-gradient(180deg, #eef1f5 0%, #f7f8fa 100%);
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 22px auto;
+    padding: 0 20px;
+}
+
+.info-box {
+    background: white;
+    border-radius: 16px;
+    border: 1px solid #e0e4ea;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 28px rgba(12, 23, 45, 0.08);
+}
+
+.info-box h2 {
+    color: #9a0d1b;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-family: 'Barlow Condensed', 'Impact', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.info-box p {
+    color: #505866;
+    line-height: 1.6;
+}
+
+.iframe-container {
+    background: white;
+    border-radius: 16px;
+    border: 1px solid #e0e4ea;
+    padding: 12px;
+    box-shadow: 0 10px 28px rgba(12, 23, 45, 0.08);
+    overflow: hidden;
+}
+
+.iframe-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 150%;
+    overflow: hidden;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .iframe-wrapper {
+        padding-bottom: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .iframe-wrapper {
+        padding-bottom: 80%;
+    }
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #60697a;
+}
+
+.external-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: linear-gradient(130deg, #e20000 0%, #780815 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.external-link:hover {
+    background: linear-gradient(130deg, #c4182a 0%, #890919 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 14px 24px rgba(94, 11, 24, 0.24);
+}
+
+.external-link:active {
+    transform: translateY(0);
+}
