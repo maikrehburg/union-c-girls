@@ -5,7 +5,7 @@
 // GitHub Repository Konfiguration
 const GITHUB_CONFIG = {
     owner: 'maikrehburg',
-    repo: 'fco-2',
+    repo: 'union-c-girls',
     branch: 'main',
     dataFile: 'data.json'
 };

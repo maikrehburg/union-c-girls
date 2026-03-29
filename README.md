@@ -2,26 +2,26 @@
 
 Eine modulare Web-App für das Team-Management der Fussballabteilung von Union Varl.
 
-**[Zur Team-App](https://maikrehburg.github.io/fco-2/)**
+**[Zur Team-App](https://maikrehburg.github.io/union-c-girls/)**
 
 ## 📱 Module
 
-### 🏠 [Startseite](https://maikrehburg.github.io/fco-2/)
+### 🏠 [Startseite](https://maikrehburg.github.io/union-c-girls/)
 Zentrale Navigation zu allen Team-Funktionen
 
-### 📅 [Spielplan](https://maikrehburg.github.io/fco-2/match-plan/match-plan.html)
+### 📅 [Spielplan](https://maikrehburg.github.io/union-c-girls/match-plan/match-plan.html)
 - Anzeige aller Spiele der Saison 25/26
 - Integration von fussball.de
 - Termine und Ergebnisse
 
-### ⚽ [Trainingsplan](https://maikrehburg.github.io/fco-2/training/training.html)
+### ⚽ [Trainingsplan](https://maikrehburg.github.io/union-c-girls/training/training.html)
 - Trainings mit Datumsauswahl hinzufügen
 - Teilnehmer aus Spielerliste auswählen
 - Übersicht aller Trainings mit Teilnehmerzahl
 - Nachträgliche Bearbeitung von Teilnehmern
 - GitHub-basierte Datenspeicherung
 
-### 👕 [Trikotwäsche](https://maikrehburg.github.io/fco-2/laundry/)
+### 👕 [Trikotwäsche](https://maikrehburg.github.io/union-c-girls/laundry/)
 - Spielerverwaltung
 - Waschdaten mit Datum und Gegner/Anlass erfassen
 - Sortierung nach Anzahl der Wäschen
@@ -30,7 +30,7 @@ Zentrale Navigation zu allen Team-Funktionen
 ## 🛠 Technische Struktur
 
 ```
-fco-2/
+union-c-girls/
 ├── index.html              # Startseite
 ├── data.json               # Globale Daten (Spieler & Trainings)
 ├── style.css               # Globale Styles (Header, Komponenten)
