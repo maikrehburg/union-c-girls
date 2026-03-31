@@ -3,12 +3,7 @@
     {
       "id": 1,
       "name": "Rebecca S.",
-      "washDates": [
-        {
-          "date": "2026-03-31",
-          "opponent": "Testeintrag"
-        }
-      ],
+      "washDates": [],
       "trainings": []
     }
   ]
