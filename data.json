@@ -122,7 +122,12 @@
     {
       "id": 1775021329402,
       "name": "Dilvin",
-      "washDates": [],
+      "washDates": [
+        {
+          "date": "2026-03-21",
+          "opponent": "Holzhausen"
+        }
+      ],
       "trainings": []
     }
   ]
